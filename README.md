@@ -31,6 +31,8 @@ Le backend est disponible sur http://localhost:8000.
 
 ---
 
-## ✨ Déploiement de l'app
+## ✨ Déploiement du backend
 
 Le back utilise [Render](https://render.com/) pour le déploiement et la liste des spots est disponible à cet endpoint : https://green-spots-back.onrender.com/api/spots
+
+Le serveur s'endort après 15 minutes d'inactivité et peut donc mettre du temps à se réactiver (~30 à 50 secondes)
