@@ -69,9 +69,6 @@ class ChargingStationMapper:
         coord_key = cls._get_coordinate_key(station)
         locations.add(coord_key)
 
-        for row in locations:
-            print("{:<10} {:<5} {:<10}".format(*(list(row) + [""] * 3)))
-
     @classmethod
     def _get_coordinate_key(cls, station: Spot) -> Tuple[float, float]:
         """Create unique key based on coords"""
