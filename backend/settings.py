@@ -130,7 +130,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # Configuration pour React
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://green-spots-front-9t7sy9lyb-aulemarouilles-projects.vercel.app",
+    "https://green-spots.netlify.app",
 ]
 
 REST_FRAMEWORK = {
